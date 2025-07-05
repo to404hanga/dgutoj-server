@@ -1,0 +1,48 @@
+# 忽略所有md文件，但保留README.md
+*.md
+!README.md
+
+# 忽略所有可执行文件
+# Windows可执行文件
+*.exe
+*.bat
+*.cmd
+*.com
+*.scr
+*.msi
+*.dll
+
+# Linux/Unix可执行文件
+# 忽略没有扩展名的可执行文件（通常在bin目录中）
+bin/
+# 忽略常见的可执行文件扩展名
+*.out
+*.run
+*.app
+
+# Go编译产生的可执行文件
+# Go项目编译后的二进制文件通常与项目同名
+dgutoj-server
+dgutoj-server.exe
+
+# 其他常见的忽略项
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# Go相关
+vendor/
+*.test
+*.prof
